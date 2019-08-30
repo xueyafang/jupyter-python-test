@@ -9,6 +9,12 @@
 jupyter notebook
 ```
 
+插件:
+https://github.com/ipython-contrib/jupyter_contrib_nbextensions
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install
+安装插件
+
 jupyter nbconvert --to html --execute  --template nbextensions --template toc  auto_week_report.ipynb
 本地 生成html的
 

@@ -9,4 +9,6 @@
 jupyter notebook
 ```
 
+jupyter nbconvert --to html --execute  --template nbextensions --template toc  auto_week_report.ipynb
+本地 生成html的
 
